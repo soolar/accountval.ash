@@ -1,0 +1,94 @@
+# Item Containers! Start with i
+i	packet of mayfly bait	mayfly bait necklace
+i	Clan VIP Lounge invitation	Clan VIP Lounge key
+i	Make-Your-Own-Vampire-Fangs kit	plastic vampire fangs
+i	Folder Holder	over-the-shoulder Folder Holder
+i	can of Rain-Doh	empty Rain-Doh can
+i	Discontent&trade; Winter Garden Catalog	packet of winter seeds
+i	Ed the Undying exhibit crate	The Crown of Ed the Undying
+i	Pack of Every Card	Deck of Every Card
+i	DIY protonic accelerator kit	protonic accelerator pack
+i	Dear Past Self Package	Time-Spinner
+i	Granny Tood's Thanksgarden Catalog	packet of thanksgarden seeds
+i	suspicious package	Kremlin's Greatest Briefcase
+i	LI-11 Motor Pool voucher	Asdon Martin keyfob
+i	Grumpy Bumpkin's Pumpkin Seed Catalog	packet of pumpkin seeds
+i	Mint Salton Pepper's Peppermint Seed Catalog	Peppermint Pip Packet
+i	Pete & Jackie's Dragon Tooth Emporium Catalog	packet of dragon's teeth
+i	Pocket Meteor Guide	Pocket Meteor Guide (well-thumbed)
+i	corked genie bottle	genie bottle
+i	pantogram	portable pantogram
+i	locked mumming trunk	mumming trunk
+i	January's Garbage Tote (unopened)	January's Garbage Tote
+i	Pok&eacute;fam Guide to Capturing All of Them	packet of tall grass seeds
+i	SongBoom&trade; BoomBox Box	SongBoom&trade; BoomBox
+
+
+
+# Bookshelf stuff! Start with b
+b	Tome of Snowcone Summoning	Tome of Snowcone Summoning
+b	McPhee's Grimoire of Hilarious Object Summoning	McPhee
+b	Libram of Candy Heart Summoning	Libram of Candy Heart Summoning
+b	Libram of Divine Favors	Libram of Divine Favors
+b	Sp'n-Zor's Grimoire of &quot;Tasteful&quot; Gifts	Sp'n-Zor's Grimoire of &quot;Tasteful&quot; Gifts
+b	Tome of Sticker Summoning	Tome of Sticker Summoning
+b	Libram of Love Songs	Libram of Love Songs
+b	Tome of Sugar Shummoning	Tome of Sugar Shummoning
+b	Libram of BRICKOs	Libram of BRICKOs
+b	Sorcerers of the Shore Grimoire	Sorcerers of the Shore Grimoire
+b	Tome of Clip Art	Tome of Clip Art
+b	Libram of Resolutions	Libram of Resolutions
+b	Thinknerd's Grimoire of Geeky Gifts	Thinknerd Grimoire
+b	Libram of Pulled Taffy	Libram of Pulled Taffy
+b	The Smith's Tome	copy of The Smith
+b	The Confiscator's Grimoire	Confiscator's Grimoire
+b	Gygaxian Libram	Gygaxian Libram
+b	Tome of Rad Libs	Tome of Rad Libs
+
+
+
+# Property based detection! Start with p
+p	airplane charter: Spring Break Beach	sleazeAirportAlways
+p	airplane charter: Conspiracy Island	spookyAirportAlways
+p	Chateau Mantegna room key	chateauAvailable
+p	bottle of lovebug pheromones	lovebugsUnlocked
+p	airplane charter: Dinseylandfill	stenchAirportAlways
+p	airplane charter: That 70s Volcano	hotAirportAlways
+p	shrine to the Barrel god	barrelShrineUnlocked
+p	airplane charter: The Glaciest	coldAirportAlways
+p	X-32-F snowman crate	snojoAvailable
+p	LT&T telegraph office deed	telegraphOfficeAvailable
+p	detective school application	hasDetectiveSchool
+p	Build-a-City Gingerbread kit	gingerbreadCityAvailable
+p	heart-shaped crate	loveTunnelAvailable
+p	Spacegate access badge	spacegateAlways
+p	FantasyRealm membership packet	frAlways
+p	Horsery contract	horseryAvailable
+
+
+
+# Eudoras! Start with e
+e	My Own Pen Pal kit	Pen Pal
+e	GameInformPowerDailyPro subscription card	GameInformPowerDailyPro Magazine
+e	Xi Receiver Unit	Xi Receiver Unit
+e	New-You Club Membership Form	New-You Club
+
+
+
+# visit_url contains... Start with v
+v	Order of the Green Thumb Order Form	forestvillage.php	friarcottage.gif
+v	Little Geneticist DNA-Splicing Lab	campground.php?action=workshed	Little Geneticist DNA-Splicing
+v	portable Mayo Clinic	campground.php?action=workshed	The Mayo Clinic
+v	Haunted Doghouse	campground.php?action=doghouse	Spoopy
+v	Witchess Set	campground.php?action=witchess	Witchess Set
+v	Source terminal	campground.php?action=terminal	Source Terminal
+v	LI-11 Motor Pool voucher	campground.php?action=workshed	Your Asdon Martin
+v	Discontent&trade; Winter Garden Catalog	campground.php	Winter Garden
+v	Grumpy Bumpkin's Pumpkin Seed Catalog	campground.php	Pumpkin Patch
+v	Mint Salton Pepper's Peppermint Seed Catalog	campground.php	Peppermint Patch
+v	Pete & Jackie's Dragon Tooth Emporium Catalog	campground.php	Bone Garden
+v	Gordon Beer's Beer Garden Catalog	campground.php	Beer Garden
+v	potted tea tree	campground.php?action=teatree	Tree Tea
+v	Granny Tood's Thanksgarden Catalog	campground.php	A Thanksgarden
+i	Pok&eacute;fam Guide to Capturing All of Them	campground.php	Tall Grass
+
