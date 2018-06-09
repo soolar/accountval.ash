@@ -1,0 +1,2 @@
+https://svn.code.sf.net/p/kolmafiascripts/cfstat/code/
+https://svn.code.sf.net/p/zlib/code
