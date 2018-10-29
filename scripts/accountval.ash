@@ -33,7 +33,8 @@ void main()
 	item [int] to_sort;
 	foreach it in $items[]
 	{
-		items[it] = available_amount(it);
+		items[it] = storage_amount(it) + closet_amount(it) + display_amount(it) +
+			equipped_amount(it) + item_amount(it) + shop_amount(it);
 	}
 
 	string[string][string][string] map;
