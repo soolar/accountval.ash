@@ -67,6 +67,7 @@ p	Spacegate access badge	spacegateAlways
 p	FantasyRealm membership packet	frAlways
 p	Horsery contract	horseryAvailable
 p	Neverending Party invitation envelope	neverendingPartyAlways
+p	voter registration form	voteAlways
 
 
 
