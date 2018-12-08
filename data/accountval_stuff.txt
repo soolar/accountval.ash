@@ -68,6 +68,7 @@ p	FantasyRealm membership packet	frAlways
 p	Horsery contract	horseryAvailable
 p	Neverending Party invitation envelope	neverendingPartyAlways
 p	voter registration form	voteAlways
+p	Boxing Day care package	daycareOpen
 
 
 
