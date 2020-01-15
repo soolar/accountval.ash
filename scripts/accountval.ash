@@ -119,7 +119,6 @@ void main()
 	{
 		if(i > 0)
 		{
-			itemdata itdata = salesVolume(it.to_int());
 			int val = item_price(it) * i;
 			netval += val;
 			itemvals[it] = val;
