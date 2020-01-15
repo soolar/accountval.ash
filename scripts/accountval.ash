@@ -19,7 +19,7 @@ int item_price(item it)
 				return folddata.avePrice;
 		}
 		int mall_min = min(100, 2 * autosell_price(it));
-		if(lowest_mall == mall_min)
+		if(lowest_mall == mall_min || (lowest_mall < 0 && autosell_price(it) != 0))
 			return autosell_price(it);
 		return lowest_mall;
 	}
