@@ -24,6 +24,11 @@ i	Pok&eacute;fam Guide to Capturing All of Them	packet of tall grass seeds
 i	SongBoom&trade; BoomBox Box	SongBoom&trade; BoomBox
 i	Bastille Battalion control rig crate	Bastille Battalion control rig
 i	latte lovers club card  latte lovers member's mug
+i	Kramco Industries packing carton	Kramco Sausage-o-Matic&trade;
+i	mint condition Lil' Doctor&trade; bag	Lil' Doctor&trade; bag
+i	vampyric cloake pattern	vampyric cloake
+i	Fourth of May Cosplay Saber kit	Fourth of May Cosplay Saber
+i	rune-strewn spoon cocoon	hewn moon-rune spoon
 i	Beach Comb Box	Beach Comb
 i	Unopened Eight Days a Week Pill Keeper	Eight Days a Week Pill Keeper
 i	unopened diabolic pizza cube box	diabolic pizza cube
@@ -72,6 +77,7 @@ p	Horsery contract	horseryAvailable
 p	Neverending Party invitation envelope	neverendingPartyAlways
 p	voter registration form	voteAlways
 p	Boxing Day care package	daycareOpen
+p	PirateRealm membership packet	prAlways
 p	Distant Woods Getaway Brochure	getawayCampsiteUnlocked
 
 
