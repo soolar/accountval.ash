@@ -33,8 +33,12 @@ void main()
 	item [int] to_sort;
 	foreach it in $items[]
 	{
-		items[it] = storage_amount(it) + closet_amount(it) + display_amount(it) +
+		int amount = storage_amount(it) + closet_amount(it) + display_amount(it) +
 			equipped_amount(it) + item_amount(it) + shop_amount(it);
+		if(amount > 0 && (it.tradeable || autosell_price(it) > 0))
+		{
+			items[it] = amount;
+		}
 	}
 
 	string[string][string][string] map;
