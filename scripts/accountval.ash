@@ -121,7 +121,7 @@ void main()
 	int netval = my_meat() + my_closet_meat() + my_storage_meat();
 	foreach it,i in items
 	{
-		if(i > 0)
+		if(i > 0 && (it.tradeable || autosell_price(it) > 0))
 		{
 			print("Checking value of " + it + " (" + rnum(++checked) + " / " + rnum(tocheck) + ")", "blue");
 			int val = item_price(it) * i;
