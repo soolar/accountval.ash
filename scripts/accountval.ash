@@ -129,11 +129,19 @@ void main()
 			to_sort[to_sort.count()] = it;
 		}
 	}
-	sort to_sort by itemvals[value];
+	int sortval(item it)
+	{
+		if(itemvals[it] > 0)
+			return itemvals[it];
+		return 999999999999;
+	}
+	sort to_sort by sortval(value);
 	foreach i,it in to_sort
 	{
 		if(itemvals[it] > 0)
 			print(rnum(items[it]) + " " + it + " worth a total of " + rnum(itemvals[it]));
+		else if(itemvals[it] < 0)
+			print(rnum(items[it]) + " " + it + " that are straight up priceless");
 	}
 	print("You are worth " + rnum(netval) + " meat!");
 	itemdata mr_a = salesVolume($item[Mr. Accessory].to_int());
