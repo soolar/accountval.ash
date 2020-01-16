@@ -31,12 +31,15 @@ void main()
 	int [item] items;
 	int [item] itemvals;
 	item [int] to_sort;
+	int tocheck = 0;
+	int checked = 0;
 	foreach it in $items[]
 	{
 		int amount = storage_amount(it) + closet_amount(it) + display_amount(it) +
 			equipped_amount(it) + item_amount(it) + shop_amount(it);
 		if(amount > 0 && (it.tradeable || autosell_price(it) > 0))
 		{
+			++tocheck;
 			items[it] = amount;
 		}
 	}
@@ -119,6 +122,7 @@ void main()
 	{
 		if(i > 0)
 		{
+			print("Checking value of " + it + " (" + rnum(++checked) + " / " + rnum(tocheck) + ")", "blue");
 			int val = item_price(it) * i;
 			netval += val;
 			itemvals[it] = val;
