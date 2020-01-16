@@ -124,7 +124,7 @@ void main()
 		{
 			print("Checking value of " + it + " (" + rnum(++checked) + " / " + rnum(tocheck) + ")", "blue");
 			int val = item_price(it) * i;
-			netval += val;
+			if(val > 0) netval += val;
 			itemvals[it] = val;
 			to_sort[to_sort.count()] = it;
 		}
