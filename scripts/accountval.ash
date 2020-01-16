@@ -13,7 +13,7 @@ int item_price(item it)
 		// none have sold, first let's try finding if any foldables have sold
 		foreach foldable in get_related(it, "fold")
 		{
-			if(mall_price(foldable) < lowest_mall)
+			if(mall_price(foldable) > 0 && mall_price(foldable) < lowest_mall)
 				lowest_mall = mall_price(foldable);
 			itemdata folddata = salesVolume(foldable.to_int());
 			// if a foldable has sold, it's probably the cheapest one
