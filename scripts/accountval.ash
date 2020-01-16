@@ -118,7 +118,7 @@ void main()
 		if(i > 0 && (it.tradeable || autosell_price(it) > 0))
 			++tocheck;
 	}
-	int netval = my_meat();
+	int netval = my_meat() + my_closet_meat() + my_storage_meat();
 	foreach it,i in items
 	{
 		if(i > 0)
