@@ -3,6 +3,9 @@ import <zlib.ash>;
 
 int item_price(item it)
 {
+	if(!it.tradeable)
+		return autosell_price(it);
+
 	itemdata itdata = salesVolume(it.to_int());
 	if(itdata.amountsold <= 0)
 	{
