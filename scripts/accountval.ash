@@ -31,17 +31,11 @@ void main()
 	int [item] items;
 	int [item] itemvals;
 	item [int] to_sort;
-	int tocheck = 0;
-	int checked = 0;
 	foreach it in $items[]
 	{
 		int amount = storage_amount(it) + closet_amount(it) + display_amount(it) +
 			equipped_amount(it) + item_amount(it) + shop_amount(it);
-		if(amount > 0 && (it.tradeable || autosell_price(it) > 0))
-		{
-			++tocheck;
-			items[it] = amount;
-		}
+		items[it] = amount;
 	}
 
 	string[string][string][string] map;
@@ -117,6 +111,13 @@ void main()
 	}
 
 
+	int tocheck = 0;
+	int checked = 0;
+	foreach it,i in items
+	{
+		if(i > 0 && (it.tradeable || autosell_price(it) > 0))
+			++tocheck;
+	}
 	int netval = my_meat();
 	foreach it,i in items
 	{
