@@ -32,6 +32,8 @@ i	rune-strewn spoon cocoon	hewn moon-rune spoon
 i	Beach Comb Box	Beach Comb
 i	Unopened Eight Days a Week Pill Keeper	Eight Days a Week Pill Keeper
 i	unopened diabolic pizza cube box	diabolic pizza cube
+i	unopened Bird-a-Day calendar	Bird-a-Day calendar
+i	mint-in-box Powerful Glove	Powerful Glove
 
 
 
