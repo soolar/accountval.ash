@@ -23,7 +23,7 @@ i	January's Garbage Tote (unopened)	January's Garbage Tote
 i	Pok&eacute;fam Guide to Capturing All of Them	packet of tall grass seeds
 i	SongBoom&trade; BoomBox Box	SongBoom&trade; BoomBox
 i	Bastille Battalion control rig crate	Bastille Battalion control rig
-i	latte lovers club card  latte lovers member's mug
+i	latte lovers club card	latte lovers member's mug
 i	Kramco Industries packing carton	Kramco Sausage-o-Matic&trade;
 i	mint condition Lil' Doctor&trade; bag	Lil' Doctor&trade; bag
 i	vampyric cloake pattern	vampyric cloake
@@ -34,6 +34,10 @@ i	Unopened Eight Days a Week Pill Keeper	Eight Days a Week Pill Keeper
 i	unopened diabolic pizza cube box	diabolic pizza cube
 i	unopened Bird-a-Day calendar	Bird-a-Day calendar
 i	mint-in-box Powerful Glove	Powerful Glove
+i	Better Shrooms and Gardens catalog	packet of mushroom spores
+i	Guzzlr application	Guzzlr tablet
+i	bag of Iunion stones	Iunion Crown
+i	packaged SpinMaster&trade; lathe	SpinMaster&trade; lathe
 
 
 
@@ -43,7 +47,7 @@ b	McPhee's Grimoire of Hilarious Object Summoning	McPhee
 b	Libram of Candy Heart Summoning	Libram of Candy Heart Summoning
 b	Libram of Divine Favors	Libram of Divine Favors
 b	Sp'n-Zor's Grimoire of &quot;Tasteful&quot; Gifts	Sp'n-Zor's Grimoire of &quot;Tasteful&quot; Gifts
-b	Tome of Sticker Summoning	Tome of Sticker Summoning
+b	Scratch 'n' Sniff Sticker Tome	Tome of Sticker Summoning
 b	Libram of Love Songs	Libram of Love Songs
 b	Tome of Sugar Shummoning	Tome of Sugar Shummoning
 b	Libram of BRICKOs	Libram of BRICKOs
@@ -108,4 +112,5 @@ v	Gordon Beer's Beer Garden Catalog	campground.php	Beer Garden
 v	potted tea tree	campground.php?action=teatree	Tree Tea
 v	Granny Tood's Thanksgarden Catalog	campground.php	A Thanksgarden
 v	Pok&eacute;fam Guide to Capturing All of Them	campground.php	Tall Grass
+v	Better Shrooms and Gardens catalog	campground.php	mushgarden.gif
 

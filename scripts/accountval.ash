@@ -61,14 +61,22 @@ void main()
 		}
 	}
 
+	item parse_item(string s)
+	{
+		item it = s.to_item();
+		if(it == $item[none])
+			abort("Invalid item " + s);
+		return it;
+	}
+
 	foreach type,f1,f2,f3 in map
 	{
 		switch(type)
 		{
 			case "i": // item containers
 			{
-				item container = to_item(f1);
-				item contained = to_item(f2);
+				item container = parse_item(f1);
+				item contained = parse_item(f2);
 				int amount = items[contained];
 				items[contained] -= amount;
 				items[container] += amount;
@@ -78,13 +86,13 @@ void main()
 			}
 			case "b": // books
 			{
-				item it = to_item(f1);
+				item it = parse_item(f1);
 				visit_check(it, "campground.php?action=bookshelf", f2);
 				break;
 			}
 			case "p": // properties
 			{
-				item it = to_item(f1);
+				item it = parse_item(f1);
 				if(get_property(f2).to_boolean() == true)
 				{
 					//print("found " + it);
@@ -94,13 +102,13 @@ void main()
 			}
 			case "e": // eudoras
 			{
-				item it = to_item(f1);
+				item it = parse_item(f1);
 				visit_check(it, "account.php?tab=correspondence", f2);
 				break;
 			}
 			case "v": // visit url checks
 			{
-				item it = to_item(f1);
+				item it = parse_item(f1);
 				visit_check(it, f2, f3);
 				break;
 			}
