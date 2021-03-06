@@ -38,6 +38,12 @@ i	Better Shrooms and Gardens catalog	packet of mushroom spores
 i	Guzzlr application	Guzzlr tablet
 i	bag of Iunion stones	Iunion Crown
 i	packaged SpinMaster&trade; lathe	SpinMaster&trade; lathe
+i	Bagged Cargo Cultist Shorts	Cargo Cultist Shorts
+i	Comprehensive Cartographic Compendium	Comprehensive Cartographic Compendium (well-read)
+i	packaged knock-off retro superhero cape	unwrapped knock-off retro superhero cape
+i	packaged miniature	crystal ball miniature crystal ball
+i	emotion chip	spinal-fluid-covered emotion chip
+i	power seed	potted power plant
 
 
 

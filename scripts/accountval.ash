@@ -121,6 +121,12 @@ void main()
 			items[f.hatchling] += 1;
 	}
 
+	if(items[$item[gregarious ghostling]] > 0)
+	{
+		// I hate that this is hardcoded but that's the way it is for now
+		items[$item[box o' ghosts]] += 1;
+	}
+
 
 	int tocheck = 0;
 	int checked = 0;
